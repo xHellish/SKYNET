@@ -1,0 +1,48 @@
+{
+  "ciudades": [
+    {
+      "nombre": "Nueva York",
+      "conexiones": [
+        {"ciudad": "Boston", "camino": "toBoston"},
+        {"ciudad": "Filadelfia", "camino": "toPhiladelphia"},
+        {"ciudad": "Washington DC", "camino": "toWashingtonDC"}
+      ]
+    },
+    {
+      "nombre": "Boston",
+      "conexiones": [
+        {"ciudad": "Nueva York", "camino": "toNewYork"},
+        {"ciudad": "Filadelfia", "camino": "toPhiladelphia"}
+      ]
+    },
+    {
+      "nombre": "Filadelfia",
+      "conexiones": [
+        {"ciudad": "Nueva York", "camino": "toNewYork"},
+        {"ciudad": "Boston", "camino": "toBoston"},
+        {"ciudad": "Washington DC", "camino": "toWashingtonDC"}
+      ]
+    },
+    {
+      "nombre": "Washington DC",
+      "conexiones": [
+        {"ciudad": "Nueva York", "camino": "toNewYork"},
+        {"ciudad": "Filadelfia", "camino": "toPhiladelphia"}
+      ]
+    },
+    {
+      "nombre": "Chicago",
+      "conexiones": [
+        {"ciudad": "Denver", "camino": "toDenver"},
+        {"ciudad": "Los Ángeles", "camino": "toLosAngeles"}
+      ]
+    },
+    {
+      "nombre": "Los Ángeles",
+      "conexiones": [
+        {"ciudad": "Chicago", "camino": "toChicago"},
+        {"ciudad": "Denver", "camino": "toDenver"}
+      ]
+    }
+  ]
+}
